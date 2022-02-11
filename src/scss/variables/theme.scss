@@ -1,0 +1,156 @@
+/* Map colors to semantic Obsidian names */
+
+.theme-light {
+  --mono100:black;
+  --mono0:white;
+}
+.theme-dark {
+  --mono100:white;
+  --mono0:black;
+}
+.theme-light,
+.theme-dark {
+  --h1-color:var(--text-normal);
+  --h2-color:var(--text-normal);
+  --h3-color:var(--text-normal);
+  --h4-color:var(--text-normal);
+  --h5-color:var(--text-normal);
+  --h6-color:var(--text-muted);
+}
+
+.theme-light.minimal-light-contrast .workspace-fake-target-overlay.is-in-sidebar,
+.theme-light.minimal-light-contrast .titlebar,
+.theme-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
+.theme-light.minimal-light-contrast .mod-left-split,
+.theme-light.minimal-light-contrast.minimal-status-off .status-bar,
+.theme-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left,
+.theme-dark,
+.theme-light,
+.excalidraw.theme--dark,
+body .excalidraw {
+
+  --text-normal:                       var(--tx1);
+  --text-bold:                         var(--tx1);
+  --text-italic:                       var(--tx1);
+  --text-muted:                        var(--tx2);
+  --text-faint:                        var(--tx3);
+
+  --title-color:                       var(--tx1);
+  --title-color-inactive:              var(--tx2);
+
+  --text-code:                         var(--tx4);
+  --text-error:                        var(--red);
+  --text-blockquote:                   var(--tx2);
+
+  --text-accent:                       var(--ax1);
+  --text-accent-hover:                 var(--ax2);
+
+  --text-on-accent:                    white;
+
+  --text-selection:                    var(--hl1);
+
+  --background-primary:                var(--bg1);
+  --background-primary-alt:            var(--bg2);
+
+  --background-secondary:              var(--bg2);
+  --background-secondary-alt:          var(--bg1);
+
+  --background-tertiary:               var(--bg3);
+
+  --background-table-rows:             var(--bg2);
+
+  --background-modifier-form-field:    var(--bg1);
+  --background-modifier-form-field-highlighted:
+                                       var(--bg1);
+
+  --interactive-hover:                 var(--ui1);
+
+  --interactive-accent:                var(--ax3);
+  --interactive-accent-hover:          var(--ax3);
+
+  --background-modifier-accent:        var(--ax3);  
+
+  --background-modifier-border:        var(--ui1);
+  --background-modifier-border-hover:  var(--ui2);
+  --background-modifier-border-focus:  var(--ui3);
+
+  --background-modifier-success:       var(--green);
+
+  --background-divider:                var(--ui1);
+
+  --quote-opening-modifier:            var(--ui2);
+
+  --modal-border:                      var(--ui2);
+
+  --icon-color:                        var(--tx2);
+  --icon-color-hover:                  var(--tx2);
+  --icon-color-active:                 var(--tx1);
+
+  --icon-hex:                          var(--mono0);
+}
+
+.theme-light,
+body .excalidraw {
+  --interactive-normal:         var(--bg1);
+  --interactive-accent-rgb:220, 220, 220;
+
+  --background-modifier-cover:hsla(var(--base-h),calc(var(--base-s) - 50%),calc(var(--base-l) - 7%),0.7);
+
+  /* Highlights from search */
+  --text-highlight-bg:rgba(255, 225, 0, 0.5);
+  --text-highlight-bg-active:rgba(0, 0, 0, 0.1);
+
+  /* Errors */
+  --background-modifier-error:rgba(255,0,0,0.14);
+  --background-modifier-error-hover:rgba(255,0,0,0.08);
+
+  /* Shadows */
+  --shadow-color:rgba(0, 0, 0, 0.1);
+  --btn-shadow-color:rgba(0, 0, 0, 0.05);
+}
+
+.theme-dark,
+.excalidraw.theme--dark {
+  --interactive-normal:         var(--bg3);
+  --interactive-accent-rgb:66, 66, 66;
+
+  --background-modifier-cover:hsla(var(--base-h),var(--base-s),calc(var(--base-d) - 12%),0.8);
+
+  /* Highlights from search */
+  --text-highlight-bg:rgba(255, 177, 80, 0.3);
+  --text-highlight-bg-active:rgba(255, 255, 255, 0.1);
+
+  /* Errors */
+  --background-modifier-error:rgba(255,20,20,0.12);
+  --background-modifier-error-hover:rgba(255,20,20,0.18);
+
+  /* Shadows */
+  --background-modifier-box-shadow:rgba(0, 0, 0, 0.3);
+  --shadow-color:rgba(0, 0, 0, 0.3);
+  --btn-shadow-color:rgba(0, 0, 0, 0.2);
+}
+
+.theme-light.minimal-light-white {
+  --background-table-rows:     var(--bg2);
+}
+
+.theme-light.minimal-light-tonal {
+  --background-primary:        var(--bg2);
+  --background-primary-alt:    var(--bg3);
+  --background-table-rows:     var(--bg3);
+}
+
+.theme-dark.minimal-dark-tonal {
+  --background-secondary:      var(--bg1);
+  --background-table-rows:     var(--bg3);
+}
+
+.theme-dark.minimal-dark-black {
+  --background-primary-alt:    var(--bg3);
+  --background-table-rows:     var(--bg3);
+  --modal-border:              var(--ui2);
+
+  --background-modifier-form-field: var(--bg3);
+  --background-modifier-cover:hsla(var(--base-h),var(--base-s),calc(var(--base-d) + 8%),0.9);
+  --background-modifier-box-shadow:rgba(0, 0, 0, 1);
+}
