@@ -13,8 +13,6 @@
   --font-smallest:10px;
 
   --font-inputs:13px;
-  --font-settings:15px;
-  --font-settings-small:12px;
 
   /* Font weights */
   --normal-weight:400;
@@ -60,12 +58,10 @@
   /* Line widths */
   --line-width:40rem;    /* Maximum characters per line */
   --line-height:1.5;
-  --max-width:88%;       /* Amount of padding around the text, use 90% for narrower padding */
-  --max-col-width:18em;
+  --max-width:90%;       /* Amount of padding around the text, use 90% for narrower padding */
 
   --icon-muted:0.5;
   --border-width:1px;
-  --border-width-alt:1px;
 
   --folding-offset:16px;
   --nested-padding:30px; /* Quotes and transclusions */
@@ -75,7 +71,7 @@
 
   --radius-s:2px;
   --radius-m:5px;
-  --radius-l:12px;
+  --radius-l:10px;
   --radius-xl:16px;
 
   --input-height:32px;

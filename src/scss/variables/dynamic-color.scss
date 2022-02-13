@@ -1,20 +1,3 @@
-/* Dynamic colors
-
-  Most colors are driven from the following values, meaning that 
-  the backgrounds, borders, and various shades are 
-  automatically generated.
-
-  - Base color is used for the backgrounds, text and borders.
-  - Accent color is used for links and some interactive elements.
-
-  The colors use HSL (hue, saturation, lightness)
-
-  - Hue (0-360 degrees):0 is red, 120 is green, and 240 is blue
-  - Saturation (0-100%):0% is desaturated, 100% is full saturation
-  - Lightness (0-100%):0% is black, 100% is white
-
-*/
-
 :root {
   --base-h:0;       /* Base hue */
   --base-s:0%;      /* Base saturation */
@@ -36,9 +19,7 @@
   --pink:#b05279;
 }
 
-.theme-light,
-.theme-light.minimal-default-light,
-body .excalidraw {
+.theme-light {
 
   --accent-l:50%;
   --base-l:96%;
@@ -140,15 +121,7 @@ body .excalidraw {
 
 }
 
-.theme-light.minimal-light-contrast .titlebar,
-.theme-light.minimal-light-contrast .workspace-fake-target-overlay.is-in-sidebar,
-.theme-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
-.theme-light.minimal-light-contrast .mod-left-split,
-.theme-light.minimal-light-contrast.minimal-status-off .status-bar,
-.theme-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left,
-.theme-dark,
-.theme-dark.minimal-default-dark,
-.excalidraw.theme--dark {
+.theme-dark {
 
   --accent-l:60%;
   --base-l:15%;
@@ -254,65 +227,5 @@ body .excalidraw {
     );
 
   --sp1:#fff;
-
-}
-
-.theme-light.minimal-light-white {
-  --background-primary:         white;
-  --background-secondary:       white;
-  --background-secondary-alt:   white;
-}
-
-.theme-dark.minimal-dark-black {
-  --base-d:0%;
-
-  --background-primary:        black;
-  --background-secondary:      black;
-  --background-secondary-alt:  black;
-
-  --background-tertiary:
-        hsl(
-          var(--base-h),
-          var(--base-s),
-          calc(var(--base-d) + 10%))
-        ;
-
-  --tx1:hsl(
-          var(--base-h),
-          var(--base-s),
-          calc(var(--base-d) + 75%)
-        );
-
-  --tx2:hsl(
-          var(--base-h),
-          var(--base-s),
-          calc(var(--base-d) + 50%)
-        );
-
-  --tx3:hsl(
-          var(--base-h),
-          var(--base-s),
-          calc(var(--base-d) + 25%)
-        );
-
-
-  --ui1:hsl(
-          var(--base-h),
-          var(--base-s),
-          calc(var(--base-d) + 12%)
-        );
-
-  --ui2:hsl(
-          var(--base-h),
-          var(--base-s),
-          calc(var(--base-d) + 20%)
-        );
-
-  --ui3:hsl(
-          var(--base-h),
-          var(--base-s),
-          calc(var(--base-d) + 30%)
-        );
-
 
 }

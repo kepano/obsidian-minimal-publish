@@ -1,0 +1,19 @@
+/* Left sidebar */
+.site-body-left-column {
+  border-right:1px solid var(--ui1);
+}
+.nav-view-outer {
+  padding-right:10px;
+}
+.nav-view-outer .tree-item {
+  margin:0;
+}
+.tree-item-self {
+  padding:4px 8px;
+}
+.tree-item-self.is-clickable:hover {
+  background-color:transparent;
+}
+.nav-view-outer .tree-item-self.mod-active {
+  background-color:var(--bg3);
+}

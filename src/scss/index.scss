@@ -4,6 +4,13 @@
 @import 'variables/theme';
 
 /* Publish */
+@import 'publish/footer';
 @import 'publish/publish';
-@import 'publish/headings';
 @import 'publish/layout';
+@import 'publish/sidebar-left';
+@import 'publish/sidebar-right';
+
+/* Components */
+@import 'publish/headings';
+@import 'publish/images';
+@import 'publish/tags';
