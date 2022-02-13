@@ -1,0 +1,6 @@
+/* Fonts */
+body, input, button  {
+  font-family:var(--text);
+}
+h1,h2,h3,h4,h5,strong {font-weight:var(--bold-weight);}
+h1,h2,h3,h4 {letter-spacing:-0.02em;}

@@ -5,12 +5,15 @@
 
 /* Publish */
 @import 'publish/footer';
+@import 'publish/helpers';
 @import 'publish/publish';
 @import 'publish/layout';
+@import 'publish/scrollbars';
 @import 'publish/sidebar-left';
 @import 'publish/sidebar-right';
 
-/* Components */
+@import 'publish/fonts';
 @import 'publish/headings';
 @import 'publish/images';
+@import 'publish/tables';
 @import 'publish/tags';

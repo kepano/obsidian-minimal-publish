@@ -5,3 +5,10 @@
   font-size:var(--font-normal);
   line-height:var(--line-height);
 }
+.markdown-preview-section {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 auto 0 auto;
+  width: var(--line-width);
+  max-width: var(--max-width);
+}

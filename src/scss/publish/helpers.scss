@@ -1,0 +1,10 @@
+/* Helpers */
+.alt-title .page-header,
+.hide-title .page-header {
+  display:none;
+}
+.alt-title.markdown-preview-view div:nth-child(4) h1 {
+  font-weight:400 !important;
+  font-size:36px !important;
+  margin-top:0;
+}
