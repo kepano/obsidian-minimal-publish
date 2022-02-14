@@ -41,13 +41,7 @@
   --tx1:#0F0F0F;
   --tx2:#828282;
   --tx3:#B5B5B5;
-
-  --tx4:
-    hsl(
-      var(--base-h),
-      calc(var(--base-s) - 10%),
-      calc(var(--base-l) - 60%)
-    );
+  --tx4:#5C5C5C;
 
   --ax1:
     hsl(

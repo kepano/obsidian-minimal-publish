@@ -1,0 +1,14 @@
+/* Modals */
+.modal {
+  background-color:var(--bg1);
+  border:1px solid var(--ui2);
+  border-radius:10px;
+  padding:10px 20px;
+  box-shadow: 0 5px 100px rgba(0,0,0,0.15);
+
+  .modal-title {
+    text-align:left;
+    font-size:var(--h1);
+    font-weight:400;
+  }
+}

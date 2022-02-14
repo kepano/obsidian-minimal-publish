@@ -1,6 +1,7 @@
 /* Code blocks */
 .markdown-preview-view code {
-
+  color:var(--tx4);
+  font-size:0.85em;
 }
 
 .theme-light :not(pre) > code[class*="language-"],

@@ -9,3 +9,16 @@
 .outline-view-outer .tree-item {
   margin:0;
 }
+.published-section-header-icon {
+  display:none;
+}
+.outline-view-outer .tree-item-self.mod-active:hover,
+.outline-view-outer .tree-item-self.mod-active {
+  background-color:transparent;
+}
+.outline-view {
+  padding-top:5px;
+}
+.outline-view-outer .tree-item-self {
+  padding: 4px 4px 4px 7px;
+}

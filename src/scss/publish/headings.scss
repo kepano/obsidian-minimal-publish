@@ -2,6 +2,9 @@
 .page-header {
 	font-weight:400;
 }
+.publish-article-heading:hover .clickable-icon {
+  display: inline-flex;
+  vertical-align: bottom;}
 
 .markdown-preview-view h1 {
   margin:1.5em 0 0.5em;

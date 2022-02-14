@@ -1,0 +1,6 @@
+/* Lists */
+
+ul > li::marker,
+ol > li::marker {
+  color:var(--tx3);
+}
