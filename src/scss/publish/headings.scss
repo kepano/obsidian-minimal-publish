@@ -3,8 +3,8 @@
 	font-weight:400;
 }
 
-.empty-state-title,
 .markdown-preview-view h1 {
+  margin:1.5em 0 0.5em;
   font-variant:var(--h1-variant);
   letter-spacing:-0.01em;
   line-height:1.3;
@@ -14,6 +14,7 @@
   font-style:var(--h1-style);
 }
 .markdown-preview-view h2 {
+	margin:1.5em 0 0.5em;
   font-variant:var(--h2-variant);
   letter-spacing:-0.02em;
   line-height:1.3;

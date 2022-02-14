@@ -1,0 +1,13 @@
+/* Code blocks */
+.markdown-preview-view code {
+
+}
+
+.theme-light :not(pre) > code[class*="language-"],
+.theme-light pre[class*="language-"] {
+  background-color:var(--bg2);
+}
+.theme-light code[class*="language-"],
+.theme-light pre[class*="language-"] {
+  text-shadow:none;
+}

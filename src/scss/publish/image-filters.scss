@@ -1,0 +1,20 @@
+/* Image filters */
+
+img[src$="#outline"] {
+  border:1px solid var(--ui1);
+}
+
+/* Invert  */
+.theme-dark img[src$="#invert"] {
+  filter:invert(1) hue-rotate(180deg);
+  mix-blend-mode:screen;
+}
+.theme-light img[src$="#invertW"] {
+  filter:invert(1) hue-rotate(180deg);
+}
+
+/* Circle */
+img[src$="#circle"] {
+  border-radius:50%;
+  aspect-ratio:1/1;
+}

@@ -6,14 +6,18 @@
 /* Publish */
 @import 'publish/footer';
 @import 'publish/helpers';
+@import 'publish/image-filters';
+@import 'publish/mobile';
 @import 'publish/publish';
 @import 'publish/layout';
 @import 'publish/scrollbars';
 @import 'publish/sidebar-left';
 @import 'publish/sidebar-right';
 
+@import 'publish/code';
 @import 'publish/fonts';
 @import 'publish/headings';
 @import 'publish/images';
+@import 'publish/syntax';
 @import 'publish/tables';
 @import 'publish/tags';

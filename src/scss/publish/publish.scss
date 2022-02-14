@@ -9,17 +9,6 @@
   color:var(--text-muted);
 }
 
-
-/* Helpers */
-.hide-title .page-header {
-  display:none;
-}
-
-/* Code */
-.markdown-preview-view code {
-
-}
-
 /* Mobile */
 @media screen and (max-width: 750px) {
   .published-container .markdown-preview-view {
