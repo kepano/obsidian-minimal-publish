@@ -1,5 +1,5 @@
 /* macOS */
-.theme-light.minimal-macos-light {
+.theme-light {
   --base-h:106;
   --base-s:0%;
   --base-l:94%;
@@ -20,16 +20,6 @@
 
   --hl1:#b3d7ff;
 }
-.theme-light.minimal-macos-light.minimal-light-tonal {
-  --bg1:#f0f0f0;
-  --bg2:#f0f0f0;
-}
-.theme-light.minimal-macos-light.minimal-light-contrast .titlebar,
-.theme-light.minimal-macos-light.minimal-light-contrast .workspace-fake-target-overlay.is-in-sidebar,
-.theme-light.minimal-macos-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
-.theme-light.minimal-macos-light.minimal-light-contrast .mod-left-split,
-.theme-light.minimal-macos-light.minimal-light-contrast.minimal-status-off .status-bar,
-.theme-light.minimal-macos-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left,
 .theme-dark.minimal-macos-dark {
   --base-h:106;
   --base-s:0%;
@@ -55,7 +45,4 @@
   --hl1:#3f638b;
 
   --sp1:#fff;
-}
-.theme-dark.minimal-macos-dark.minimal-dark-black {
-  --background-divider:#1e1e1e;
 }

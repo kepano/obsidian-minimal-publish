@@ -1,6 +1,6 @@
 /* Dracula */
 
-.theme-dark.minimal-dracula-dark {
+.theme-dark {
   --red:#ff5555;
   --yellow:#f1fa8c;
   --green:#50fa7b;
@@ -9,15 +9,7 @@
   --pink:#ff79c6;
   --cyan:#8be9fd;
   --blue:#6272a4;
-}
 
-.theme-light.minimal-dracula-light.minimal-light-contrast .titlebar,
-.theme-light.minimal-dracula-light.minimal-light-contrast .workspace-fake-target-overlay.is-in-sidebar,
-.theme-light.minimal-dracula-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
-.theme-light.minimal-dracula-light.minimal-light-contrast .mod-left-split,
-.theme-light.minimal-dracula-light.minimal-light-contrast.minimal-status-off .status-bar,
-.theme-light.minimal-dracula-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left,
-.theme-dark.minimal-dracula-dark {
   --base-h:232;
   --base-s:16%;
   --base-l:19%;
@@ -39,7 +31,4 @@
   --ax3:#ff79c6;
 
   --hl1:#44475a;
-}
-.theme-dark.minimal-dracula-dark.minimal-dark-black {
-  --ui1:#282a36;
 }

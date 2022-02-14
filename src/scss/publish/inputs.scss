@@ -1,0 +1,31 @@
+/* Inputs */
+
+input[type='text'],
+input[type='search'],
+input[type='email'],
+input[type='password'],
+input[type='number'] {
+  border-color:var(--ui1);
+  font-family:var(--font-ui);
+  border-radius:5px;
+}
+input[type='text']:hover,
+input[type='search']:hover,
+input[type='email']:hover,
+input[type='password']:hover,
+input[type='number']:hover {
+  border-color:var(--ui2);
+}
+input[type='text']:active, 
+input[type='search']:active, 
+input[type='email']:active, 
+input[type='password']:active, 
+input[type='number']:active, 
+input[type='text']:focus, 
+input[type='search']:focus, 
+input[type='email']:focus, 
+input[type='password']:focus,
+input[type='number']:focus {
+    border-color:var(--ui2);
+    box-shadow:0 0 0 2px var(--ui2);
+}

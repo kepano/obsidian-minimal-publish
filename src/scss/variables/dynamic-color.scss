@@ -24,36 +24,12 @@
   --accent-l:50%;
   --base-l:96%;
 
-  --bg1:white;
+  --bg1:#FFF;
+  --bg2:#F5F5F5;
+  --bg3:#E5E5E5;
 
-  --bg2:
-    hsl(
-      var(--base-h),
-      var(--base-s),
-      var(--base-l)
-    );
-
-  --bg3:
-    hsla(
-      var(--base-h),
-      var(--base-s),
-      calc(var(--base-l) - 50%),
-      0.12
-    );
-
-  --ui1:
-    hsl(
-      var(--base-h),
-      var(--base-s),
-      calc(var(--base-l) - 6%)
-    );
-
-  --ui2:
-    hsl(
-      var(--base-h),
-      var(--base-s),
-      calc(var(--base-l) - 12%)
-    );
+  --ui1:#E6E6E6;
+  --ui2:#D6D6D6;
 
   --ui3:
     hsl(
@@ -62,26 +38,9 @@
       calc(var(--base-l) - 20%)
     );
 
-  --tx1:
-    hsl(
-      var(--base-h),
-      var(--base-s),
-      calc(var(--base-l) - 90%)
-    );
-
-  --tx2:
-    hsl(
-      var(--base-h),
-      calc(var(--base-s) - 20%),
-      calc(var(--base-l) - 45%)
-    );
-
-  --tx3:
-    hsl(
-      var(--base-h),
-      calc(var(--base-s) - 10%),
-      calc(var(--base-l) - 25%)
-    );
+  --tx1:#0F0F0F;
+  --tx2:#828282;
+  --tx3:#B5B5B5;
 
   --tx4:
     hsl(

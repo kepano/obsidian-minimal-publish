@@ -1,6 +1,38 @@
 /* Mobile */
 @media screen and (max-width: 750px) {
-  .published-container .markdown-preview-view {
-    padding:20px 0;
+  .published-container {
+
+    .markdown-preview-view {
+      padding:20px 0 40px;
+    }
+
+    .has-navigation {
+
+      .site-body-left-column {
+        left:-100vw;
+        width:100vw;
+        background-color:var(--bg1);
+        top:var(--header-height);
+      }
+      .is-left-column-open .nav-backdrop {
+        opacity:0;
+      }
+      .site-header .clickable-icon {
+        display: flex;
+        align-items: center;
+      }
+
+    }
+
   }
+
+  .site-body-left-column-site-name {
+    display:none;
+  }
+
+  .site-body-left-column {
+    padding-top:5px;
+  }
+
+
 }

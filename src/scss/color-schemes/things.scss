@@ -1,13 +1,13 @@
 /* Things */
 
-.theme-light.minimal-things-light {
+.theme-light {
   --blue:#1b61c2;
 }
-.theme-dark.minimal-things-dark {
+.theme-dark {
   --blue:#4d95f7;
 }
 
-.theme-light.minimal-things-light {
+.theme-light {
   --bg1:white;
   --bg2:#f5f6f8;
   --bg3:rgba(162,177,187,0.25);
@@ -31,18 +31,7 @@
   --h3-color:#1b61c2;
   --h4-color:#1b61c2;
 }
-.theme-light.minimal-things-light.minimal-light-tonal {
-  --ui1:#e6e8ec;
-}
-.theme-light.minimal-things-light.minimal-light-white {
-  --bg3:#f5f6f8;
-}
-.theme-light.minimal-things-light.minimal-light-contrast .titlebar,
-.theme-light.minimal-things-light.minimal-light-contrast .workspace-fake-target-overlay.is-in-sidebar,
-.theme-light.minimal-things-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
-.theme-light.minimal-things-light.minimal-light-contrast .mod-left-split,
-.theme-light.minimal-things-light.minimal-light-contrast.minimal-status-off .status-bar,
-.theme-light.minimal-things-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left,
+
 .theme-dark.minimal-things-dark {
   --base-h:218;
   --base-s:9%;
@@ -74,11 +63,4 @@
   --h4-color:#4d95f7;
 
   --sp1:#fff;
-}
-
-.theme-dark.minimal-things-dark.minimal-dark-black {
-  --base-d:5%;
-
-  --bg3:#24262a;
-  --background-divider:#24262a;  
 }

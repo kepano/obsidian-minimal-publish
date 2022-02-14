@@ -1,7 +1,7 @@
 /* Nord */
 
-.theme-dark.minimal-nord-dark,
-.theme-light.minimal-nord-light {
+.theme-dark,
+.theme-light {
   --red:#BF616A;
   --yellow:#EBCB8B;
   --green:#A3BE8C;
@@ -12,7 +12,7 @@
   --blue:#81A1C1;
 }
 
-.theme-light.minimal-nord-light {
+.theme-light {
   --base-h:221;
   --base-s:27%;
   --base-l:94%;
@@ -37,13 +37,7 @@
   --ax2:#81a1c1;
 }
 
-.theme-light.minimal-nord-light.minimal-light-contrast .titlebar,
-.theme-light.minimal-nord-light.minimal-light-contrast .workspace-fake-target-overlay.is-in-sidebar,
-.theme-light.minimal-nord-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
-.theme-light.minimal-nord-light.minimal-light-contrast .mod-left-split,
-.theme-light.minimal-nord-light.minimal-light-contrast.minimal-status-off .status-bar,
-.theme-light.minimal-nord-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left,
-.theme-dark.minimal-nord-dark {
+.theme-dark {
   --base-h:220;
   --base-s:16%;
   --base-l:22%;
@@ -65,7 +59,4 @@
   --tx3:#4c566a;
 
   --ax3:#5e81ac;
-}
-.theme-dark.minimal-nord-dark.minimal-dark-black {
-  --ui1:#2e3440;
 }
