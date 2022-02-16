@@ -1,3 +1,10 @@
+var plausible = document.createElement('script')
+plausible.defer = true
+plausible.setAttribute('data-domain', 'minimal.guide')
+plausible.src = 'https://plausible.io/js/plausible.js'
+document.head.appendChild(plausible)
+
+
 var siteLeft = document.querySelector('.site-body-left-column');
 
 let navOrderAsc = ["Home.md", "Help.md"]; /* these go on top*/
