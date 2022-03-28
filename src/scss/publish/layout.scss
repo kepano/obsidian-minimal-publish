@@ -1,4 +1,10 @@
 /* Publish layout */
+.site-body {
+  background: linear-gradient(90deg, var(--bg2) 50%, var(--bg1) 50%);
+}
+.site-body-center-column {
+  background-color:var(--bg1);
+}
 
 .markdown-preview-view {
   padding:25px 0 50px;
