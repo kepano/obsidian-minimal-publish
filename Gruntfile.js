@@ -58,7 +58,7 @@ module.exports = function(grunt) {
         concat_css: {
             dist: {
                 files: {
-                  'publish.css': ['src/css/license.css','src/css/main.min.css']
+                  'publish.css': ['src/css/license.css','src/scss/variables/root.css','src/scss/variables/default.css','src/css/main.min.css']
                 }
             }
         },

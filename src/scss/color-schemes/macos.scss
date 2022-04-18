@@ -1,9 +1,5 @@
 /* macOS */
 .theme-light {
-  --base-h:106;
-  --base-s:0%;
-  --base-l:94%;
-
   --bg1:#fff;
   --bg2:#f0f0f0;
   --bg3:#d7d7d7;
@@ -21,15 +17,12 @@
   --hl1:#b3d7ff;
 }
 .theme-dark.minimal-macos-dark {
-  --base-h:106;
-  --base-s:0%;
-  --base-l:12%;
-
   --bg1:#1e1e1e;
   --bg2:#282828;
   --bg3:#414141;
 
   --background-divider:#000;
+
   --ui1:#373737;
   --ui2:#515151;
   --ui3:#595959;
@@ -43,6 +36,4 @@
   --ax3:#007bff;
 
   --hl1:#3f638b;
-
-  --sp1:#fff;
 }

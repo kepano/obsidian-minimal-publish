@@ -1,0 +1,53 @@
+/* Color scheme */
+.theme-light,
+.theme-dark {
+  --red:#d04255;
+  --yellow:#e5b567;
+  --green:#a8c373;
+  --orange:#e57e43;
+  --cyan:#73bbb2;
+  --blue:#6c99bb;
+  --purple:#9e86c8;
+  --pink:#b05279;
+}
+
+.theme-light {
+  --accent-l:50%;
+
+  --bg1:#FFF;
+  --bg2:#F5F5F5;
+  --bg3:#E5E5E5;
+
+  --ui1:#E6E6E6;
+  --ui2:#D6D6D6;
+  --ui3:#C2C2C2;
+
+  --tx1:#0F0F0F;
+  --tx2:#828282;
+  --tx3:#B5B5B5;
+
+  --ax1:#6A8695;
+  --ax2:#556B77;
+  --ax3:#889EAA;
+
+  --hl1:hsla(201,50%,40%,30%);
+}
+.theme-dark {
+  --bg1:#262626;
+  --bg2:#212121;
+  --bg3:hsla(0,0,55%,0.12);
+
+  --ui1:#333333;
+  --ui2:#3B3B3B;
+  --ui3:#595959;
+
+  --tx1:#D1D1D1;
+  --tx2:#999999;
+  --tx3:#595959;
+
+  --ax1:#889EAA;
+  --ax2:#ACBBC3;
+  --ax3:#67808E;
+
+  --hl1:hsla(201,70%,40%,30%);
+}
