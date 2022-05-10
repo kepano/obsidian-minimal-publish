@@ -1,5 +1,5 @@
 /* Fonts */
-body, input, button  {
+body, input, button, .markdown-preview-view  {
   font-family:var(--text);
 }
 h1,h2,h3,h4,h5,strong {font-weight:var(--bold-weight);}
