@@ -17,6 +17,17 @@
   .published-search-icon {
     left:18px;
   }
+  .site-body-left-column-site-theme-toggle {
+    margin-top:10px;
+    margin-left:-8px;
+    .checkbox-container {
+      box-shadow:inset 0 0 0 1px var(--ui1);
+    }
+    .checkbox-container:after {
+      box-shadow:inset 0 0 0 1px var(--ui1);
+    }
+  }
+
 }
 .nav-view-outer {
   padding-right:10px;
