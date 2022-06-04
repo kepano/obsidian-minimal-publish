@@ -8,6 +8,8 @@
   font-size:36px !important;
   letter-spacing:-0.02em;
   margin-top:0;
+  padding-bottom:0;
+  border:none;
 }
 .table-col-1-150.markdown-preview-view td:first-child {
   width:150px;
@@ -18,7 +20,7 @@
 .table-full table {
   width:100%;
 }
-.h1-borders:not(.publish-article-heading) {
+.h1-borders h1 {
   border-bottom:1px solid var(--ui1);
   padding-bottom:0.5em;
 }
