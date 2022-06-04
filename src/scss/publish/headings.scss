@@ -17,7 +17,7 @@
   font-weight:var(--h1-weight);
   font-style:var(--h1-style);
 }
-.h1:not(.publish-article-heading) {
+h1:not(.publish-article-heading) {
   border-bottom:1px solid var(--ui1);
   padding-bottom:0.5em;
 }
