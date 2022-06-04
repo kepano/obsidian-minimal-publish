@@ -1,6 +1,6 @@
 /* Adjust the following variables */
 
-:root {
+body {
   /* Fonts */
   --text:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   --font-monospace:Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;

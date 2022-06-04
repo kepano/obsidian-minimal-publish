@@ -18,3 +18,7 @@
 .table-full table {
   width:100%;
 }
+.h1-borders:not(.publish-article-heading) {
+  border-bottom:1px solid var(--ui1);
+  padding-bottom:0.5em;
+}
