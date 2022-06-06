@@ -5,6 +5,10 @@
     font-weight:500;
   }
 
+  .site-body-left-column, .site-body-right-column {
+    font-size:var(--font-normal);
+  }
+
   .published-container {
 
     .markdown-preview-view {
@@ -28,7 +32,6 @@
       }
 
     }
-
   }
 
   .site-body-left-column-site-name {
@@ -37,6 +40,23 @@
 
   .site-body-left-column {
     padding-top:5px;
+
+    .nav-view-outer {
+      padding-bottom:100px;
+    }
+    .tree-item-children {
+      margin-left:10px;
+    }
+    .tree-item-children > .tree-item:last-child {
+      padding:2px 0px 6px;
+    }
+    .tree-item-self.is-clickable {
+      flex-direction:row-reverse;
+      padding:8px 4px 8px 8px;
+    }
+    .nav-view  > .tree-item > .tree-item-children > .tree-item {
+      border-bottom:1px solid var(--ui1);
+    }
   }
 
   .modal {
