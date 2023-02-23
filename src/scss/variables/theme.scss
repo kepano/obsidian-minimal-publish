@@ -17,6 +17,11 @@
   --h5-color:var(--text-normal);
   --h6-color:var(--text-muted);
 }
+.published-container {
+  --sidebar-left-background: var(--bg2);
+  --outline-heading-color-active: var(--tx1);
+}
+
 .theme-dark,
 .theme-light {
 

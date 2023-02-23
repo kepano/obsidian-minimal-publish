@@ -1,7 +1,7 @@
 /* Tags */
 .markdown-preview-view .tag:not(.token) {
   background-color:transparent;
-  border-color:var(--ui1);
+  border: 1px solid var(--ui1);
   color:var(--tx2);
   font-size:var(--font-small);
 }
