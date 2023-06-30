@@ -1,9 +1,11 @@
 /* Image filters */
 
+span[src$="#outline"] img,
 img[src$="#outline"] {
   border:1px solid var(--ui1);
 }
 
+span[src$="#interface"] img,
 img[src$="#interface"] {
   border:1px solid var(--ui1);
   box-shadow:
@@ -17,15 +19,19 @@ img[src$="#interface"] {
 }
 
 /* Invert  */
+
+.theme-dark span[src$="#invert"] img,
 .theme-dark img[src$="#invert"] {
   filter:invert(1) hue-rotate(180deg);
   mix-blend-mode:screen;
 }
+.theme-light span[src$="#invertW"] img,
 .theme-light img[src$="#invertW"] {
   filter:invert(1) hue-rotate(180deg);
 }
 
 /* Circle */
+span[src$="#circle"] img,
 img[src$="#circle"] {
   border-radius:50%;
   aspect-ratio:1/1;
