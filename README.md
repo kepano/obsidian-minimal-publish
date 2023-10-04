@@ -1,10 +1,8 @@
 # Minimal Publish
 
-Minimal Publish is a stripped-down version of [Minimal Theme](https://github.com/kepano/obsidian-minimal) for [Obsidian Publish](https://obsidian.md/publish).
+Minimal Publish is a stripped-down version of [Minimal Theme](https://github.com/kepano/obsidian-minimal) for [Obsidian Publish](https://obsidian.md/publish). The theme was rewritten from scratch to optimize loading speed.
 
-Minimal Publish is used at [minimal.guide](https://minimal.guide).
-
-To install Minimal Publish on your site, follow 
+To see a demo of Minimal Publish go to [minimal.guide](https://minimal.guide).
 
 ### Features
 
