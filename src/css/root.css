@@ -2,7 +2,7 @@
 
 body {
 	/* Font sizes */
-	--font-normal:   16px;
+	--font-text-size:   16px;
 	--font-small:    13px;
 	--font-smaller:  11px;
 	--font-smallest: 10px;
@@ -34,7 +34,7 @@ body {
 	--h1-variant:    normal;
 	--h2-variant:    normal;
 	--h3-variant:    normal;
-	--h4-variant:    small-caps;
+	--h4-variant:    normal;
 	--h5-variant:    small-caps;
 	--h6-variant:    small-caps;
 
@@ -65,8 +65,6 @@ body {
 	--img-grid-gap:   0.5rem;
 
 	/* Line widths */
-	--line-width:     40rem;   /* Maximum characters per line */
-	--max-width:      90%;     /* Amount of padding around the text, use 90% for narrower padding */
 
 	--icon-muted:     0.5;
 	--border-width:   1px;
@@ -76,13 +74,6 @@ body {
 
 	--list-padding:   2em;     /* List padding */
 	--list-spacing:   0.075em; /* Space between list items */
-
-	--input-height:   32px;
-	--header-height:  51px;
-
-	--mobile-left-sidebar-width:  280pt;
-	--mobile-right-sidebar-width: 240pt;
-
 }
 
 /* Mobile */
