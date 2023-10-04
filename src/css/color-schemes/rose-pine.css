@@ -68,11 +68,6 @@ https://github.com/rose-pine/rose-pine-theme
 
 	--hl1: #EAE3E1;
 }
-.theme-light.minimal-rose-pine-light.minimal-light-contrast .titlebar,
-.theme-light.minimal-rose-pine-light.minimal-light-contrast.minimal-status-off .status-bar,
-.theme-light.minimal-rose-pine-light.minimal-light-contrast .workspace-drawer.mod-left,
-.theme-light.minimal-rose-pine-light.minimal-light-contrast .mod-left-split,
-.theme-light.minimal-rose-pine-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
 .theme-dark.minimal-rose-pine-dark {
 	--base-h: 247;
 	--base-s: 23%;
@@ -95,7 +90,4 @@ https://github.com/rose-pine/rose-pine-theme
 	--tx3: #6e6a86;
 
 	--hl1: #403d52;
-}
-.theme-dark.minimal-rose-pine-dark.minimal-dark-black {
-	--ui1: #21202e;
 }
