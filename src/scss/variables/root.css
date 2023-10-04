@@ -45,11 +45,28 @@ body {
 	--h5-style:      normal;
 	--h6-style:      normal;
 
+	/* Cards */
+	--cards-min-width:    180px;
+	--cards-max-width:    1fr;
+	--cards-mobile-width: 180px;
+	--cards-image-height: 400px;
+	--cards-padding:      1.2em;
+	--cards-image-fit:    contain;
+	--cards-background:   transparent;
+	--cards-border-width: 1px;
+	--cards-aspect-ratio: auto;
+	--cards-columns:      repeat(auto-fit, minmax(var(--cards-min-width), var(--cards-max-width)));
+
+	/* Images */
+	--image-radius:   8px;
+
+	--image-grid-fit: cover;
+	--image-grid-background: transparent;
+	--img-grid-gap:   0.5rem;
+
 	/* Line widths */
 	--line-width:     40rem;   /* Maximum characters per line */
 	--max-width:      90%;     /* Amount of padding around the text, use 90% for narrower padding */
-
-	--image-radius:   8px;
 
 	--icon-muted:     0.5;
 	--border-width:   1px;
@@ -66,4 +83,11 @@ body {
 	--mobile-left-sidebar-width:  280pt;
 	--mobile-right-sidebar-width: 240pt;
 
+}
+
+@media (max-width:400pt) {
+	body {
+		--cards-min-width:var(--cards-mobile-width);
+		--img-grid-gap: 0.25rem;
+	}
 }
