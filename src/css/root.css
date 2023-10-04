@@ -2,48 +2,48 @@
 
 body {
 	/* Font sizes */
-	--font-text-size:   16px;
-	--font-small:    13px;
-	--font-smaller:  11px;
-	--font-smallest: 10px;
-	--font-inputs:   13px;
+	--font-text-size: 16px;
+	--font-small:     13px;
+	--font-smaller:   11px;
+	--font-smallest:  10px;
+	--font-inputs:    13px;
 
 	/* Font weights */
-	--normal-weight: 400;
-	--bold-weight:   600;
-	--link-weight:   inherit;
+	--normal-weight:  400;
+	--bold-weight:    600;
+	--link-weight:    inherit;
 
 	/* Headings */
 	--page-title-weight: 500;
 	--page-title-line-height: 1.1;
 
-	--h1:            1.25em;
-	--h2:            1.1em;
-	--h3:            1.05em;
-	--h4:            1em;
-	--h5:            0.85em;
-	--h6:            0.85em;
+	--h1:             1.25em;
+	--h2:             1.1em;
+	--h3:             1.05em;
+	--h4:             1em;
+	--h5:             0.85em;
+	--h6:             0.85em;
 
-	--h1-weight:     600;
-	--h2-weight:     600;
-	--h3-weight:     600;
-	--h4-weight:     500;
-	--h5-weight:     500;
-	--h6-weight:     400;
+	--h1-weight:      600;
+	--h2-weight:      600;
+	--h3-weight:      600;
+	--h4-weight:      500;
+	--h5-weight:      500;
+	--h6-weight:      400;
 
-	--h1-variant:    normal;
-	--h2-variant:    normal;
-	--h3-variant:    normal;
-	--h4-variant:    normal;
-	--h5-variant:    small-caps;
-	--h6-variant:    small-caps;
+	--h1-variant:     normal;
+	--h2-variant:     normal;
+	--h3-variant:     normal;
+	--h4-variant:     normal;
+	--h5-variant:     small-caps;
+	--h6-variant:     small-caps;
 
-	--h1-style:      normal;
-	--h2-style:      normal;
-	--h3-style:      normal;
-	--h4-style:      normal;
-	--h5-style:      normal;
-	--h6-style:      normal;
+	--h1-style:       normal;
+	--h2-style:       normal;
+	--h3-style:       normal;
+	--h4-style:       normal;
+	--h5-style:       normal;
+	--h6-style:       normal;
 
 	/* Cards */
 	--cards-min-width:    180px;
