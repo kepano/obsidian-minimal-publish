@@ -85,6 +85,7 @@ body {
 
 }
 
+/* Mobile */
 @media (max-width:400pt) {
 	body {
 		--cards-min-width:var(--cards-mobile-width);

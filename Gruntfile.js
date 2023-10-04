@@ -58,8 +58,76 @@ module.exports = function(grunt) {
         concat_css: {
             dist: {
                 files: {
-                  'publish.css': ['src/css/license.css','src/scss/variables/root.css','src/scss/variables/default.css','src/css/main.min.css'],
-                  'color-schemes/solarized/publish.css': ['src/css/license.css','src/scss/variables/root.css','src/scss/color-schemes/solarized.css','src/css/main.min.css']
+                  'publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/default.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/ayu/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/ayu.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/atom/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/atom.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/ayu/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/ayu.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/catppuccin/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/catppuccin.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/dracula/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/dracula.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/everforest/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/everforest.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/gruvbox/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/gruvbox.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/macos/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/macos.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/nord/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/nord.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/notion/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/notion.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/rose-pine/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/rose-pine.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/solarized/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/solarized.css',
+                        'src/css/main.min.css'],
+                  'color-schemes/things/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/things.css',
+                        'src/css/main.min.css']
                 }
             }
         },
