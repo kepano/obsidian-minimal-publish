@@ -2,22 +2,16 @@
 @import 'variables/theme';
 
 /* Publish */
-@import 'publish/footer';
 @import 'publish/helpers';
 @import 'publish/image-filters';
 @import 'publish/layout';
-@import 'publish/modals';
-@import 'publish/sidebar-left';
-@import 'publish/sidebar-right';
 
 @import 'publish/backlinks';
 @import 'publish/code';
-@import 'publish/fonts';
 @import 'publish/headings';
 @import 'publish/images';
 @import 'publish/inputs';
 @import 'publish/lists';
-@import 'publish/syntax';
 @import 'publish/tables';
 @import 'publish/tags';
 @import 'publish/tooltips';

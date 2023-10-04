@@ -1,14 +1,10 @@
 /* Code blocks */
 .markdown-preview-view code {
-  color:var(--tx4);
-  font-size:0.85em;
+	color:var(--tx4);
+	font-size:0.85em;
 }
 
 .theme-light :not(pre) > code[class*="language-"],
 .theme-light pre[class*="language-"] {
-  background-color:var(--bg2);
-}
-.theme-light code[class*="language-"],
-.theme-light pre[class*="language-"] {
-  text-shadow:none;
+	background-color:var(--bg2);
 }

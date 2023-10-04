@@ -1,121 +1,110 @@
 /* Map colors to semantic Obsidian names */
 
 .theme-light {
-  --mono100:black;
-  --mono0:white;
+	--mono100: black;
+	--mono0: white;
 }
 .theme-dark {
-  --mono100:white;
-  --mono0:black;
+	--mono100: white;
+	--mono0: black;
 }
 .theme-light,
 .theme-dark {
-  --h1-color:var(--text-normal);
-  --h2-color:var(--text-normal);
-  --h3-color:var(--text-normal);
-  --h4-color:var(--text-normal);
-  --h5-color:var(--text-normal);
-  --h6-color:var(--text-muted);
+	--h1-color:                          var(--text-normal);
+	--h2-color:                          var(--text-normal);
+	--h3-color:                          var(--text-normal);
+	--h4-color:                          var(--text-normal);
+	--h5-color:                          var(--text-normal);
+	--h6-color:                          var(--text-muted);
 }
 .published-container {
-  --sidebar-left-background: var(--bg2);
-  --outline-heading-color-active: var(--tx1);
+	--outline-heading-color-active:      var(--tx1);
+	--sidebar-left-background:           var(--bg2);
 }
 
 .theme-dark,
 .theme-light {
 
-  --text-normal:                       var(--tx1);
-  --text-bold:                         var(--tx1);
-  --text-italic:                       var(--tx1);
-  --text-muted:                        var(--tx2);
-  --text-faint:                        var(--tx3);
+	--background-primary:                var(--bg1);
+	--background-primary-alt:            var(--bg2);
+	--background-secondary:              var(--bg2);
+	--background-secondary-alt:          var(--bg1);
+	--background-tertiary:               var(--bg3);
+	--background-table-rows:             var(--bg2);
 
-  --title-color:                       var(--tx1);
-  --title-color-inactive:              var(--tx2);
+	--background-modifier-form-field:    var(--bg1);
+	--background-modifier-form-field-highlighted: var(--bg1);
+	--background-modifier-accent:        var(--ax3);  
+	--background-modifier-border:        var(--ui1);
+	--background-modifier-border-hover:  var(--ui2);
+	--background-modifier-border-focus:  var(--ui3);
+	--background-modifier-success:       var(--color-green);
+	--background-divider:                var(--ui1);
 
-  --text-code:                         var(--tx4);
-  --text-error:                        var(--red);
-  --text-blockquote:                   var(--tx2);
+	--interactive-hover:                 var(--ui1);
+	--interactive-accent:                var(--ax3);
+	--interactive-accent-hover:          var(--ax3);
 
-  --text-accent:                       var(--ax1);
-  --text-accent-hover:                 var(--ax2);
+	--quote-opening-modifier:            var(--ui2);
 
-  --text-on-accent:                    white;
+	--modal-border:                      var(--ui2);
 
-  --text-selection:                    var(--hl1);
+	--icon-color:                        var(--tx2);
+	--icon-color-hover:                  var(--tx2);
+	--icon-color-active:                 var(--tx1);
+	--icon-hex:                          var(--mono0);
 
-  --background-primary:                var(--bg1);
-  --background-primary-alt:            var(--bg2);
+	--text-normal:                       var(--tx1);
+	--text-bold:                         var(--tx1);
+	--text-italic:                       var(--tx1);
+	--text-muted:                        var(--tx2);
+	--text-faint:                        var(--tx3);
 
-  --background-secondary:              var(--bg2);
-  --background-secondary-alt:          var(--bg1);
+	--text-accent:                       var(--ax1);
+	--text-accent-hover:                 var(--ax2);
+	--text-on-accent:                    white;
+	--text-selection:                    var(--hl1);
 
-  --background-tertiary:               var(--bg3);
+	--text-code:                         var(--tx4);
+	--text-error:                        var(--color-red);
+	--text-blockquote:                   var(--tx2);
 
-  --background-table-rows:             var(--bg2);
+	--title-color:                       var(--tx1);
+	--title-color-inactive:              var(--tx2);
 
-  --background-modifier-form-field:    var(--bg1);
-  --background-modifier-form-field-highlighted:
-                                       var(--bg1);
-
-  --interactive-hover:                 var(--ui1);
-
-  --interactive-accent:                var(--ax3);
-  --interactive-accent-hover:          var(--ax3);
-
-  --background-modifier-accent:        var(--ax3);  
-
-  --background-modifier-border:        var(--ui1);
-  --background-modifier-border-hover:  var(--ui2);
-  --background-modifier-border-focus:  var(--ui3);
-
-  --background-modifier-success:       var(--green);
-
-  --background-divider:                var(--ui1);
-
-  --quote-opening-modifier:            var(--ui2);
-
-  --modal-border:                      var(--ui2);
-
-  --icon-color:                        var(--tx2);
-  --icon-color-hover:                  var(--tx2);
-  --icon-color-active:                 var(--tx1);
-
-  --icon-hex:                          var(--mono0);
 }
 
 .theme-light {
-  --interactive-normal:         var(--bg1);
-  --interactive-accent-rgb:220, 220, 220;
+	--interactive-normal:                var(--bg1);
+	--interactive-accent-rgb:            220, 220, 220;
 
-  /* Highlights from search */
-  --text-highlight-bg:rgba(255, 225, 0, 0.5);
-  --text-highlight-bg-active:rgba(0, 0, 0, 0.1);
+	/* Highlights from search */
+	--text-highlight-bg:                 rgba(255, 225, 0, 0.5);
+	--text-highlight-bg-active:          rgba(0, 0, 0, 0.1);
 
-  /* Errors */
-  --background-modifier-error:rgba(255,0,0,0.14);
-  --background-modifier-error-hover:rgba(255,0,0,0.08);
+	/* Errors */
+	--background-modifier-error:         rgba(255,0,0,0.14);
+	--background-modifier-error-hover:   rgba(255,0,0,0.08);
 
-  /* Shadows */
-  --shadow-color:rgba(0, 0, 0, 0.1);
-  --btn-shadow-color:rgba(0, 0, 0, 0.05);
+	/* Shadows */
+	--shadow-color:                      rgba(0, 0, 0, 0.1);
+	--btn-shadow-color:                  rgba(0, 0, 0, 0.05);
 }
 
 .theme-dark {
-  --interactive-normal:         var(--bg3);
-  --interactive-accent-rgb:66, 66, 66;
+	--interactive-normal:                var(--bg3);
+	--interactive-accent-rgb:            66, 66, 66;
 
-  /* Highlights from search */
-  --text-highlight-bg:rgba(255, 177, 80, 0.3);
-  --text-highlight-bg-active:rgba(255, 255, 255, 0.1);
+	/* Highlights from search */
+	--text-highlight-bg:                 rgba(255, 177, 80, 0.3);
+	--text-highlight-bg-active:          rgba(255, 255, 255, 0.1);
 
-  /* Errors */
-  --background-modifier-error:rgba(255,20,20,0.12);
-  --background-modifier-error-hover:rgba(255,20,20,0.18);
+	/* Errors */
+	--background-modifier-error:         rgba(255,20,20,0.12);
+	--background-modifier-error-hover:   rgba(255,20,20,0.18);
 
-  /* Shadows */
-  --background-modifier-box-shadow:rgba(0, 0, 0, 0.3);
-  --shadow-color:rgba(0, 0, 0, 0.3);
-  --btn-shadow-color:rgba(0, 0, 0, 0.2);
+	/* Shadows */
+	--background-modifier-box-shadow:    rgba(0, 0, 0, 0.3);
+	--shadow-color:                      rgba(0, 0, 0, 0.3);
+	--btn-shadow-color:                  rgba(0, 0, 0, 0.2);
 }

@@ -5,9 +5,7 @@ input[type='search'],
 input[type='email'],
 input[type='password'],
 input[type='number'] {
-  border-color:var(--ui1);
-  font-family:var(--font-ui);
-  border-radius:5px;
+  border-color: var(--ui1);
 }
 input[type='text']:hover,
 input[type='search']:hover,
@@ -26,6 +24,6 @@ input[type='search']:focus,
 input[type='email']:focus, 
 input[type='password']:focus,
 input[type='number']:focus {
-    border-color:var(--ui2);
-    box-shadow:0 0 0 2px var(--ui2);
+    border-color: var(--ui2);
+    box-shadow: 0 0 0 2px var(--ui2);
 }

@@ -58,20 +58,8 @@ module.exports = function(grunt) {
         concat_css: {
             dist: {
                 files: {
-                  'publish.css': ['src/css/license.css','src/scss/variables/root.css','src/scss/variables/default.css','src/css/main.min.css']
-                }
-            }
-        },
-
-        /* Copy the finished distribution file from the working directory to the vault 
-        directory and use correct theme name */ 
-        copy: {
-            local: { 
-                expand: true,
-                src: 'publish.css',
-                dest: process.env.HOME + process.env.OBSIDIAN_PATH,
-                rename: function(dest, src) {
-                   return dest + 'publish.css';
+                  'publish.css': ['src/css/license.css','src/scss/variables/root.css','src/scss/variables/default.css','src/css/main.min.css'],
+                  'color-schemes/solarized/publish.css': ['src/css/license.css','src/scss/variables/root.css','src/scss/color-schemes/solarized.css','src/css/main.min.css']
                 }
             }
         },
@@ -80,7 +68,7 @@ module.exports = function(grunt) {
         watch: {
             css: {
                 files: ['src/**/*.scss','src/**/*.css'],
-                tasks: ['env','sass:dist','cssmin','concat_css','copy',]
+                tasks: ['env','sass:dist','cssmin','concat_css']
             }
         }
     });

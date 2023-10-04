@@ -1,0 +1,59 @@
+/* Gruvbox color scheme */
+.theme-dark,
+.theme-light {
+	--color-red-rgb: 204, 36, 29;
+	--color-orange-rgb: 214,93,14;
+	--color-yellow-rgb: 215,153,33;
+	--color-green-rgb: 152,151,26;
+	--color-cyan-rgb: 104,157,106;
+	--color-blue-rgb: 69,133,136;
+	--color-purple-rgb: 177,98,134;
+	--color-pink-rgb: 177,98,134;
+
+	--color-red:#cc241d;
+	--color-orange:#d65d0e;
+	--color-yellow:#d79921;
+	--color-green:#98971a;
+	--color-cyan:#689d6a;
+	--color-blue:#458588;
+	--color-purple:#b16286;
+	--color-pink:#b16286;
+}
+.theme-light {
+	--bg1:#fcf2c7;
+	--bg2:#f2e6bd;
+	--bg3:#ebd9b3;
+
+	--ui1:#ebdbb2;
+	--ui2:#d5c4a1;
+	--ui3:#bdae93;
+
+	--tx1:#282828;
+	--tx2:#7c7065;
+	--tx3:#a89a85;
+
+	--ax1:#d65d0e;
+	--ax2:#af3a03;
+	--ax3:#d65d0d;
+
+	--hl1:#ebdbb2;
+}
+.theme-dark {
+	--bg1:#282828;
+	--bg2:#1e2021;
+	--bg3:rgba(62,57,55,0.5);
+
+	--ui1:#3c3836;
+	--ui2:#504945;
+	--ui3:#665c54;
+
+	--tx1:#fbf1c7;
+	--tx2:#bdae93;
+	--tx3:#7c6f64;
+
+	--ax1:#d65d0e;
+	--ax2:#fe8019;
+	--ax3:#d65d0e;
+
+	--hl1:#504946;
+}

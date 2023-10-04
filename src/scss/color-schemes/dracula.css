@@ -1,0 +1,34 @@
+/* Dracula color scheme */
+.theme-dark {
+  --color-red-rgb: 255,85,85;
+  --color-orange-rgb: 255,184,108;
+  --color-yellow-rgb: 241,250,140;
+  --color-green-rgb: 80,250,123;
+  --color-cyan-rgb: 139,233,253;
+  --color-blue-rgb: 98,114,164;
+  --color-purple-rgb: 189,147,249;
+  --color-pink-rgb: 255,121,198;
+
+  --color-red: #ff5555;
+  --color-orange: #ffb86c;
+  --color-yellow: #f1fa8c;
+  --color-green: #50fa7b;
+  --color-cyan: #8be9fd;
+  --color-blue: #6272a4;
+  --color-purple: #bd93f9;
+  --color-pink: #ff79c6;
+
+  --bg1:#282a37;
+  --bg2:#21222c;
+
+  --ui2:#44475a;
+  --ui3:#6272a4;
+
+  --tx1:#f8f8f2;
+  --tx2:#949FBE;
+  --tx3:#6272a4;
+
+  --ax3:#ff79c6;
+
+  --hl1:#44475a;
+}

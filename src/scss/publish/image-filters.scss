@@ -1,5 +1,4 @@
 /* Image filters */
-
 span[src$="#outline"] img,
 img[src$="#outline"] {
   border:1px solid var(--ui1);
@@ -19,7 +18,6 @@ img[src$="#interface"] {
 }
 
 /* Invert  */
-
 .theme-dark span[src$="#invert"] img,
 .theme-dark img[src$="#invert"] {
   filter:invert(1) hue-rotate(180deg);
