@@ -93,6 +93,11 @@ module.exports = function(grunt) {
                         'src/css/root.css',
                         'src/css/color-schemes/everforest.css',
                         'src/css/main.min.css'],
+                  'color-schemes/flexoki/publish.css': [
+                        'src/css/license.css',
+                        'src/css/root.css',
+                        'src/css/color-schemes/flexoki.css',
+                        'src/css/main.min.css'],
                   'color-schemes/gruvbox/publish.css': [
                         'src/css/license.css',
                         'src/css/root.css',

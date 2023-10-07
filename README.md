@@ -30,6 +30,7 @@ See [Obsidian Help](https://help.obsidian.md/Obsidian+Publish/Customize+your+sit
 - Catppuccin
 - Dracula
 - Everforest
+- Flexoki
 - Gruvbox
 - macOS
 - Nord
