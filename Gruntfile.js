@@ -113,10 +113,10 @@ module.exports = function(grunt) {
                         'src/css/root.css',
                         'src/css/color-schemes/nord.css',
                         'src/css/main.min.css'],
-                  'color-schemes/notion/publish.css': [
+                  'color-schemes/sky/publish.css': [
                         'src/css/license.css',
                         'src/css/root.css',
-                        'src/css/color-schemes/notion.css',
+                        'src/css/color-schemes/sky.css',
                         'src/css/main.min.css'],
                   'color-schemes/rose-pine/publish.css': [
                         'src/css/license.css',
