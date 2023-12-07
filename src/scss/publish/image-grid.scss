@@ -8,7 +8,6 @@ version: 4.0.0
 Support my work:
 https://github.com/sponsors/kepano
 */
-/* Revamped for Obsidian 1.1.9+ using :has() */
 
 body {
   --image-grid-fit: cover;
@@ -37,10 +36,6 @@ body {
   }
 
   .markdown-preview-section {
-    /*img:not(.emoji):not([width]),
-    video {
-      width:100%;
-    }*/
     > div:has(.image-embed) > p {
       display: grid;
       margin-block-start: var(--img-grid-gap);
