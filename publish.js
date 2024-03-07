@@ -1,24 +1,42 @@
-let globalImages = [];
+let imagesByPath = {};
 let currentImageIndex = 0;
+let currentPath = '';
 
 function preloadImage(url) {
   const img = new Image();
   img.src = url;
 }
 
-publish.registerMarkdownPostProcessor(async (el, ctx) => {
-  const blockImages = Array.from(el.querySelectorAll('.internal-embed'));
-
-  blockImages.forEach((image, index) => {
-    if (!image.classList.contains('processed')) {
-      image.classList.add('processed');
-
-      const imageUrl = image.src || image.getAttribute('data-src');
+function preloadAllImages() {
+  const images = imagesByPath[currentPath] || [];
+  images.forEach(image => {
+    const imgElement = image.querySelector('img');
+    const imageUrl = imgElement?.getAttribute('src') || imgElement?.getAttribute('data-src');
+    if (imageUrl) {
       preloadImage(imageUrl);
-      globalImages.push(image);
+    }
+  });
+}
 
-      image.addEventListener('click', function() {
-        currentImageIndex = globalImages.indexOf(this);
+function updateCurrentPath() {
+  currentPath = publish.currentFilepath;
+  if (!imagesByPath[currentPath]) {
+    imagesByPath[currentPath] = [];
+    preloadAllImages();
+  }
+}
+
+publish.registerMarkdownPostProcessor(async (el, ctx) => {
+  updateCurrentPath();
+
+  const blockImages = Array.from(el.querySelectorAll('.internal-embed'));
+  blockImages.forEach((span) => {
+    if (!span.classList.contains('processed')) {
+      span.classList.add('processed');
+      imagesByPath[currentPath].push(span);
+
+      span.addEventListener('click', function() {
+        currentImageIndex = imagesByPath[currentPath].indexOf(this);
         const lightboxDiv = document.createElement('div');
         lightboxDiv.classList.add('lightbox');
         const contentToMove = this.cloneNode(true);
@@ -33,16 +51,17 @@ publish.registerMarkdownPostProcessor(async (el, ctx) => {
         lightboxDiv.addEventListener('click', removeLightbox);
 
         const keyListener = (event) => {
+          const images = imagesByPath[currentPath] || [];
           if (event.key === "Escape") {
             removeLightbox();
           } else if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
             if (event.key === "ArrowRight") {
-              currentImageIndex = (currentImageIndex + 1) % globalImages.length;
+              currentImageIndex = (currentImageIndex + 1) % images.length;
             } else {
-              currentImageIndex = (currentImageIndex - 1 + globalImages.length) % globalImages.length;
+              currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
             }
             lightboxDiv.innerHTML = '';
-            const newContent = globalImages[currentImageIndex].cloneNode(true);
+            const newContent = images[currentImageIndex].cloneNode(true);
             lightboxDiv.appendChild(newContent);
           }
           if (event.key === "ArrowUp" || event.key === "ArrowDown") {

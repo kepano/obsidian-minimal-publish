@@ -4,8 +4,8 @@ img[src$="#outline"] {
   border:1px solid var(--ui1);
 }
 
-span[src$="#interface"] img,
-img[src$="#interface"] {
+.published-container span[src$="#interface"] img,
+.published-container img[src$="#interface"] {
   border:1px solid var(--ui1);
   box-shadow:
   0px 0.5px 0.9px rgba(0, 0, 0, 0.021),
