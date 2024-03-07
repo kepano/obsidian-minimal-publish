@@ -16,17 +16,19 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;;
+    height: 100%;
 
     .internal-embed {
         max-width: 96%;
         max-height: 96vh;
-        vertical-align: bottom;
         cursor: zoom-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     img {
-        vertical-align: bottom;
         cursor: zoom-out;
-        box-shadow: 0 10px 50px rgba(0,0,0,0.6);
+        object-fit: contain;
     }
 }
 
