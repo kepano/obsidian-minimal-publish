@@ -1,0 +1,34 @@
+/* Image zoom effect, requires publish.js
+   See https://minimal.guide/guides/image-gallery */
+
+.img-zoom {
+    .image-embed {
+        cursor: zoom-in;
+    }
+}
+
+.lightbox {
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--img-zoom-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .internal-embed {
+        max-width: var(--img-zoom-max-width);
+        max-height: var(--img-zoom-max-height);
+        cursor: var(--img-zoom-in-cursor);
+        display: flex;
+    }
+    img {
+        cursor: var(--img-zoom-out-cursor);
+        object-fit: contain;
+    }
+}

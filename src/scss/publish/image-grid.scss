@@ -10,8 +10,8 @@ https://github.com/sponsors/kepano
 */
 
 body {
-  --image-grid-fit: cover;
-  --image-grid-background: transparent;
+  --img-grid-fit: cover;
+  --img-grid-background: transparent;
   --img-grid-gap: 0.5rem;
 }
 @media (max-width:400pt) {
@@ -31,7 +31,7 @@ body {
   }
   .image-embed.is-loaded {
     img {
-      background-color: var(--image-grid-background);
+      background-color: var(--img-grid-background);
       &:active {
         background-color: transparent;
       }
@@ -51,12 +51,12 @@ body {
         display:none;
       }
       > img {
-        object-fit: var(--image-grid-fit);
+        object-fit: var(--img-grid-fit);
         align-self: stretch;
         height: 100%;
       }
       > .internal-embed img {
-        object-fit: var(--image-grid-fit);
+        object-fit: var(--img-grid-fit);
         align-self: center;
         height: 100%;
       }

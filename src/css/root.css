@@ -61,12 +61,17 @@ body {
 	/* Images */
 	--image-radius:   8px;
 
-	--image-grid-fit: cover;
-	--image-grid-background: transparent;
-	--img-grid-gap:   0.5rem;
+	--img-grid-fit:        cover;
+	--img-grid-background: transparent;
+	--img-grid-gap:        0.5rem;
 
-	/* Line widths */
+	--img-zoom-background: rgba(0,0,0,0.6);
+	--img-zoom-max-width:  96%;
+	--img-zoom-max-height: 90vh;
+	--img-zoom-in-cursor:  zoom-in;
+	--img-zoom-out-cursor: zoom-out;
 
+	/* Misc */
 	--icon-muted:     0.5;
 	--border-width:   1px;
 
