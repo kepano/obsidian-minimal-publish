@@ -30,5 +30,6 @@
     img {
         cursor: var(--img-zoom-out-cursor);
         object-fit: contain;
+        width: auto;
     }
 }
