@@ -45,6 +45,7 @@ body {
       grid-column-gap: var(--img-grid-gap);
       grid-row-gap: 0;
       grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+      display: flex;
       > br {
         display:none;
       }
@@ -56,7 +57,7 @@ body {
       > .internal-embed img {
         object-fit: var(--image-grid-fit);
         align-self: center;
-        display: flex;
+        height: 100%;
       }
     }
   }
