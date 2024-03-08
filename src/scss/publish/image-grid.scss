@@ -27,6 +27,7 @@ body {
 .img-grid {
   .image-embed {
      line-height:0;
+     display: flex;
   }
   .image-embed.is-loaded {
     img {
@@ -45,7 +46,7 @@ body {
       grid-column-gap: var(--img-grid-gap);
       grid-row-gap: 0;
       grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-      display: flex;
+
       > br {
         display:none;
       }
