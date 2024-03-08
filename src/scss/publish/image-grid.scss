@@ -51,10 +51,12 @@ body {
       > img {
         object-fit: var(--image-grid-fit);
         align-self: stretch;
+        height: 100%;
       }
       > .internal-embed img {
         object-fit: var(--image-grid-fit);
         align-self: center;
+        display: flex;
       }
     }
   }
