@@ -21,7 +21,7 @@
     justify-content: center;
     height: 100%;
 
-    .internal-embed {
+    .internal-embed.image-embed {
         max-width: var(--img-zoom-max-width);
         max-height: var(--img-zoom-max-height);
         cursor: var(--img-zoom-in-cursor);
