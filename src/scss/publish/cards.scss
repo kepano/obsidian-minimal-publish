@@ -10,7 +10,7 @@ https://github.com/sponsors/kepano
 
 */
 
-.table-cards {  
+.cards {  
 	table {
 		--table-width: 100%;
 		--table-edge-cell-padding-first: calc(var(--cards-padding)/2);
@@ -120,7 +120,7 @@ https://github.com/sponsors/kepano
 /* ------------------- */
 /* Sorting menu */
 
-.table-cards table thead { display: none; }
+.cards table thead { display: none; }
 
 /* ------------------- */
 /* Card lists */
@@ -189,57 +189,60 @@ https://github.com/sponsors/kepano
 /* ------------------- */
 /* Helper classes */
 
-.table-cards,
+/* ------------------- */
+/* Helper classes */
+
+.cards,
 .list-cards {
-	&.table-cards-16-9 {
+	&.cards-16-9 {
 		--cards-aspect-ratio: 16/9;
 	}
-	&.table-cards-1-1 {
+	&.cards-1-1 {
 		--cards-aspect-ratio: 1/1;
 	}
-	&.table-cards-2-1 {
+	&.cards-2-1 {
 		--cards-aspect-ratio: 2/1;
 	}
-	&.table-cards-2-3 {
+	&.cards-2-3 {
 		--cards-aspect-ratio: 2/3;
 	}
-	&.table-cards-cols-1 {
+	&.cards-cols-1 {
 		--cards-columns: repeat(1, minmax(0, 1fr));
 	}
-	&.table-cards-cols-2 {
+	&.cards-cols-2 {
 		--cards-columns: repeat(2, minmax(0, 1fr));
 	}
-	&.table-cards-cover {
+	&.cards-cover {
 		--cards-image-fit: cover;
 	}
-	&.table-cards-align-bottom table tbody > tr > td:last-child {
+	&.cards-align-bottom table.dataview tbody > tr > td:last-child {
 		margin-top: auto;
 	}
 }
 
 @media (max-width:400pt) {
-	.table-cards table tbody > tr > td:not(:first-child) {
+	.cards table.dataview tbody > tr > td:not(:first-child) {
 		font-size: 80%;
 	}
 }
 
 @media (min-width:400pt) {
-	.table-cards-cols-3 {
+	.cards-cols-3 {
 		--cards-columns: repeat(3, minmax(0, 1fr));
 	}
-	.table-cards-cols-4 {
+	.cards-cols-4 {
 		--cards-columns: repeat(4, minmax(0, 1fr));
 	}
-	.table-cards-cols-5 {
+	.cards-cols-5 {
 		--cards-columns: repeat(5, minmax(0, 1fr));
 	}
-	.table-cards-cols-6 {
+	.cards-cols-6 {
 		--cards-columns: repeat(6, minmax(0, 1fr));
 	}
-	.table-cards-cols-7 {
+	.cards-cols-7 {
 		--cards-columns: repeat(7, minmax(0, 1fr));
 	}
-	.table-cards-cols-8 {
+	.cards-cols-8 {
 		--cards-columns: repeat(8, minmax(0, 1fr));
 	}
 }
