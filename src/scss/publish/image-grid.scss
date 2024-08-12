@@ -25,13 +25,11 @@ body {
 }
 
 .img-grid {
-  .image-embed {
-     line-height:0;
-     display: flex;
-  }
+
   .image-embed.is-loaded {
+    line-height:0;
     img {
-      background-color: var(--img-grid-background);
+      background-color: var(--image-grid-background);
       &:active {
         background-color: transparent;
       }
@@ -39,26 +37,44 @@ body {
   }
 
   .markdown-preview-section {
-    > div:has(.image-embed) > p {
+    > div:has(img) {
+      p:empty,
+      img ~ br,
+      .image-embed ~ br {
+        display:none;
+      }
+    }
+    div:has(>.image-embed ~ .image-embed),
+    p:has(>.image-embed ~ .image-embed),
+    div:has(>img ~ img),
+    p:has(>.image-embed ~ img),
+    p:has(>img ~ .image-embed),
+    p:has(>img ~ img) {
       display: grid;
       margin-block-start: var(--img-grid-gap);
       margin-block-end: var(--img-grid-gap);
       grid-column-gap: var(--img-grid-gap);
       grid-row-gap: 0;
       grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-
-      > br {
-        display:none;
-      }
       > img {
-        object-fit: var(--img-grid-fit);
+        object-fit: var(--image-grid-fit);
         align-self: stretch;
-        height: 100%;
       }
       > .internal-embed img {
-        object-fit: var(--img-grid-fit);
+        object-fit: var(--image-grid-fit);
+        height:100%;
         align-self: center;
-        height: 100%;
+      }
+    }
+    > div:has(img) > p {
+      display: grid;
+      margin-block-start: var(--img-grid-gap);
+      margin-block-end: var(--img-grid-gap);
+      grid-column-gap: var(--img-grid-gap);
+      grid-row-gap: 0;
+      grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+      > br {
+        display:none;
       }
     }
   }
